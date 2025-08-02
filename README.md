@@ -131,7 +131,7 @@ This project is not intended for use in a real financial environment. It lacks p
 Full-Stack Developer | Systems Administrator
 📧 [Email](mailto:cliffordrh@egmail.com.com)
 🔗 [LinkedIn](https://www.linkedin.com/in/clifford-hepplethwaite-2b5204348/)
-🐙 [x.com](https://x.com/CHepplethwaite)
+🐦 [x.com](https://x.com/CHepplethwaite)
 
 ---
 
