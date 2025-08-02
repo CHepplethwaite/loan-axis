@@ -13,7 +13,7 @@ Built with ASP.NET Core and Angular, this system models the core workflows of a 
 
 You can view the live demonstration hosted on **Azure App Service**:
 
-🔗 [demo](loan-axis.tumpetech.com)
+🔗 [live demo](loan-axis.tumpetech.com)
 
 > This deployment is for demonstration purposes only. Data is mock or test-based, and security controls are basic.
 
