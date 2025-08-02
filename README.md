@@ -23,7 +23,7 @@ You can view the live demonstration hosted on **Azure App Service**:
 
 ```
 
-/LoanAxis
+/Loan-axis
 ├── /backend      # ASP.NET Core Web API
 ├── /frontend     # Angular SPA
 ├── /docs         # Technical documentation
