@@ -1,0 +1,113 @@
+# ========================
+# Global settings
+# ========================
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore node_modules and packages
+**/node_modules/
+**/dist/
+**/build/
+
+# Ignore environment files
+**/.env
+**/.env.*.local
+
+# Ignore OS-specific files
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========================
+# ASP.NET Core specific
+# ========================
+**/bin/
+**/obj/
+**/Properties/launchSettings.json
+
+# VS Code + Rider config
+.vscode/
+.idea/
+
+# ASP.NET secrets
+secrets.json
+
+# DotNet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET NuGet Packages
+**/packages/
+*.nupkg
+*.snupkg
+
+# IIS
+.vs/
+*.dbmdl
+*.bak
+*.sql
+
+# Logs and databases
+*.log
+*.ldb
+*.mdf
+*.ldf
+
+# Others
+_ReSharper*/
+*.resharper
+*.tss
+*.cache
+*.sln.docstates
+
+# Coverlet coverage
+coverage*.json
+coverage*.xml
+coverage*.info
+TestResults/
+
+# Static web assets
+**/wwwroot/lib/
+**/wwwroot/node_modules/
+
+# ========================
+# Angular specific
+# ========================
+# Angular output
+/frontend/.angular/
+**/frontend/.angular/cache/
+**/frontend/.angular/tmp/
+**/frontend/dist/
+**/frontend/tmp/
+
+# Angular environment files
+**/frontend/src/environments/environment.*.ts
+
+# Angular test coverage
+**/frontend/coverage/
+**/frontend/.karma-*
+
+# ========================
+# Documentation folder
+# ========================
+/docs/*.aux
+/docs/*.out
+/docs/*.toc
+/docs/*.log
+/docs/*.pdf
+
+# ========================
+# Git files
+# ========================
+*.orig
+*.rej
+*.patch
+*.diff
