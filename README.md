@@ -13,7 +13,7 @@ Built with ASP.NET Core and Angular, this system models the core workflows of a 
 
 You can view the live demonstration hosted on **Azure App Service**:
 
-🔗 loan-axis.tumpetech.com
+🔗 [live demo](loan-axis.tumpetech.com)
 
 > This deployment is for demonstration purposes only. Data is mock or test-based, and security controls are basic.
 
@@ -23,7 +23,7 @@ You can view the live demonstration hosted on **Azure App Service**:
 
 ```
 
-/LoanAxis
+/Loan-axis
 ├── /backend      # ASP.NET Core Web API
 ├── /frontend     # Angular SPA
 ├── /docs         # Technical documentation
@@ -129,9 +129,9 @@ This project is not intended for use in a real financial environment. It lacks p
 
 **Clifford Hepplethwaite**
 Full-Stack Developer | Systems Administrator
-📧 [cliffordrh@gmail.com](mailto:cliffordrh@egmail.com.com)
-🔗 [www.linkedin.com/in/clifford-hepplethwaite-2b5204348/](https://www.linkedin.com/in/clifford-hepplethwaite-2b5204348/)
-🐙 [github.com/CHepplethwaite](https://github.com/CHepplethwaite)
+📧 [Email](mailto:cliffordrh@egmail.com.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/clifford-hepplethwaite-2b5204348/)
+🐦 [x.com](https://x.com/CHepplethwaite)
 
 ---
 
