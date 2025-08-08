@@ -5,13 +5,8 @@
         // Base event properties if needed later
     }
 
-    public class LoanApprovedEvent : DomainEvent
+    public class LoanApprovedEvent(int loanId) : DomainEvent
     {
-        public int LoanId { get; }
-
-        public LoanApprovedEvent(int loanId)
-        {
-            LoanId = loanId;
-        }
+        public int LoanId { get; } = loanId;
     }
 }

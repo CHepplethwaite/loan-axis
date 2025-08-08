@@ -26,23 +26,23 @@ namespace LoanAxis.Api.Domain.Entities
 
         public int Id { get; private set; }
         public int CustomerId { get; private set; }
-        public Customer Customer { get; private set; }
+        public required Customer Customer { get; set; }
 
-        public Money PrincipalAmount { get; private set; }
-        public InterestRate InterestRate { get; private set; }
-        public LoanTerm Term { get; private set; }
+        public required Money PrincipalAmount { get; set; }
+        public required InterestRate InterestRate { get; set; }
+        public required LoanTerm Term { get; set; }
 
         public DateTime StartDate { get; private set; }
         public LoanStatus Status { get; private set; }
-        public ApplicationType ApplicationType { get; private set; }
+        public required ApplicationType ApplicationType { get; set; }
 
-        private readonly Collection<RepaymentSchedule> _schedules = new Collection<RepaymentSchedule>();
+        private readonly Collection<RepaymentSchedule> _schedules = [];
         public IReadOnlyCollection<RepaymentSchedule> Schedules => _schedules;
 
-        private readonly Collection<RepaymentTransaction> _transactions = new Collection<RepaymentTransaction>();
+        private readonly Collection<RepaymentTransaction> _transactions = [];
         public IReadOnlyCollection<RepaymentTransaction> Transactions => _transactions;
 
-        private readonly List<DomainEvent> _domainEvents = new List<DomainEvent>();
+        private readonly List<DomainEvent> _domainEvents = [];
         public IReadOnlyCollection<DomainEvent> DomainEvents => _domainEvents.AsReadOnly();
 
         public void Approve()
