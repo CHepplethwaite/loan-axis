@@ -1,9 +1,6 @@
 ﻿using LoanAxis.Api.Domain.Enums;
 using LoanAxis.Api.Domain.Events;
-using LoanAxis.Api.Domain.Exceptions;
 using LoanAxis.Api.Domain.ValueObjects;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace LoanAxis.Api.Domain.Entities
