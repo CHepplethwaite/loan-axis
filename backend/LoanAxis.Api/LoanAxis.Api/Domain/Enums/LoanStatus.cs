@@ -1,6 +1,9 @@
 ﻿namespace LoanAxis.Api.Domain.Enums
 {
-    public class LoanStatus
+    public enum LoanStatus
     {
+        Pending,
+        Approved,
+        Rejected
     }
 }

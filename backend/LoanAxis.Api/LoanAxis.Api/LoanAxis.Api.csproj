@@ -25,7 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Events\" />
     <Folder Include="Features\Auth\Queries\" />
     <Folder Include="Features\Repayments\Commands\" />
     <Folder Include="Features\Repayments\Queries\" />
